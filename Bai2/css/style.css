@@ -1,0 +1,22 @@
+.content {
+    background: linear-gradient(to bottom, #C9A227, #C9A227);
+    padding: 20px;
+    color: white;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6)
+}
+
+.float-image {
+    float: right;
+    border: 3px solid white;
+    margin-left: 20px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}

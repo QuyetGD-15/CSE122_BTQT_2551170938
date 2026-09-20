@@ -1,0 +1,33 @@
+.content {
+    background-color: #FFFDE7;
+    border: 1px solid #9E9E9E;
+    text-align: center;
+}
+
+h1 {
+    color: #D40000;
+    background-color: #FFD9E6;
+    font-weight: bold;
+}
+
+p {
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.first {
+    color: #0033CC;
+}
+
+.second {
+    color: #D40000;
+}
+
+.third {
+    color: #0033CC;
+}
+
+hr {
+    width: 55%;
+    color: #0033CC;
+}
