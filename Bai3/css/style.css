@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to bottom, #7ec8e3, #0a5c8a);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    overflow: auto;
+}
+
+h1 {
+    color: #0b3d5c;
+    text-align: center;
+    font-weight: bold;
+}
+
+.intro {
+    background-color: #0b3d5c;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.float-img {
+    float: right;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.content p::first-letter {
+    color: #0b3d5c;
+    font-size: 3.5em;
+    float: left;
+    line-height: 0.8;
+    margin-right: 5px;
+}
