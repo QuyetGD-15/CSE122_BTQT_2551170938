@@ -1,0 +1,57 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    gap: 50px;
+}
+
+.left-column {
+    width: 30%;
+}
+
+.rose-img {
+    width: 220px;
+    border-radius: 10px;
+}
+
+.right-column {
+    width: 70%;
+}
+
+h1 {
+    color:  #C2185B;
+    text-align: center;
+}
+
+.company-title {
+    background-color: #FFC0CB;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px;
+}
+
+.list-square {
+    list-style: square;
+    line-height: 1.5;
+}
+
+.list-circle {
+    list-style: circle;
+    line-height: 1.5;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright a {
+    color: blue;
+}

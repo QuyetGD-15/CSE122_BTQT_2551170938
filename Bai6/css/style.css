@@ -1,0 +1,65 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 251, 235);
+    padding: 40px;
+}
+
+.left-column {
+    flex: 0 0 auto;
+}
+
+.food-img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.right-column {
+    flex: 1;
+}
+
+h1 {
+    color:  #E65100;
+    text-align: center;
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #E65100;
+    color: white;
+    padding: 7px;
+}
+
+td {
+    padding: 5px;
+    border-bottom: 1px solid #E0D6C2;
+}
+
+.col-stt {
+    text-align: center;
+    width: 40px;
+}
+.align-item {
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FDF8EF;
+}
