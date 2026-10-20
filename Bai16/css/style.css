@@ -1,0 +1,71 @@
+/* Khung ứng dụng rộng 600px */
+.app-container {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Nền tiêu đề màu tím */
+.header-purple {
+    background-color: #6d28d9;
+}
+
+/* Nút thêm màu tím */
+.btn-purple {
+    background-color: #6d28d9;
+    color: white;
+}
+.btn-purple:hover {
+    background-color: #5b21b6;
+    color: white;
+}
+
+/* Định dạng từng dòng việc làm */
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px dashed #ede9fe; /* Kẻ nét đứt phân cách */
+}
+
+/* Ô đánh dấu (checkbox tùy chỉnh) */
+.custom-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #a78bfa;
+    border-radius: 4px;
+    margin-right: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* Chữ việc làm */
+.task-text {
+    flex: 1;
+    cursor: pointer;
+}
+
+/* --- TRẠNG THÁI HOÀN THÀNH --- */
+.task-item.completed .task-text {
+    text-decoration: line-through;
+    color: #9ca3af;
+}
+
+.task-item.completed .custom-checkbox {
+    background-color: #6d28d9;
+    border-color: #6d28d9;
+}
+
+/* Nút xóa màu đỏ nhạt */
+.btn-delete {
+    background-color: #fde2e2;
+    color: #b91c1c;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-delete:hover {
+    background-color: #fca5a5;
+}

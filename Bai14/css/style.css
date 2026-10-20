@@ -1,0 +1,33 @@
+.bg-title {
+    background-color: #2E7D32;
+}
+
+.text-yellow {
+    color: #FFEB3B;
+}
+
+.text-green {
+    color: #1b5e20;
+}
+
+.custom-card {
+    border-color: #e0e0e0;
+}
+
+.wonder-img {
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 3px solid #2E7D32;
+    border-radius: 6px 6px 0 0;
+}
+
+.wonder-grid .wonder-item:nth-child(even) .custom-card {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.wonder-grid .wonder-item:nth-child(even) .wonder-img {
+    border-bottom: none;
+    border-top: none;
+    border-radius: 0 0 6px 6px;
+}

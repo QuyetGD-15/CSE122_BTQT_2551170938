@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 13 - Đồng hồ số</title>
+    <!-- Tích hợp Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-light d-flex justify-content-center align-items-center min-vh-100">
+
+    <div class="container" style="max-width: 600px;">
+        
+        <!-- Khối hiển thị đồng hồ (Nền đen) -->
+        <div class="bg-black p-5 rounded-4 text-center mb-4 shadow-lg">
+            <!-- Giờ -->
+            <img id="h1" src="../image/00.gif" class="digit-img" alt="H">
+            <img id="h2" src="../image/00.gif" class="digit-img" alt="H">
+            
+            <!-- Dấu hai chấm -->
+            <img src="../image/haicham.gif" class="digit-img mx-1" alt=":">
+            
+            <!-- Phút -->
+            <img id="m1" src="../image/00.gif" class="digit-img" alt="M">
+            <img id="m2" src="../image/00.gif" class="digit-img" alt="M">
+            
+            <!-- Dấu hai chấm -->
+            <img src="../image/haicham.gif" class="digit-img mx-1" alt=":">
+            
+            <!-- Giây -->
+            <img id="s1" src="../image/00.gif" class="digit-img" alt="S">
+            <img id="s2" src="../image/00.gif" class="digit-img" alt="S">
+        </div>
+
+        <!-- Khối hiển thị lời chào (Nền trắng, chữ đỏ) -->
+        <div class="bg-white p-4 rounded-4 shadow-sm text-center">
+            <h1 id="greetingText" class="text-greeting m-0 display-4 fw-bold">Đang tải...</h1>
+        </div>
+
+    </div>
+
+    <!-- Nhúng file JS -->
+    <script src="../js/script.js"></script>
+</body>
+</html>

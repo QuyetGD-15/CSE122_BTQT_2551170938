@@ -1,0 +1,10 @@
+/* Đặt chiều cao ảnh chữ số là 52px theo đúng yêu cầu */
+.digit-img {
+    height: 52px;
+}
+
+/* Định dạng màu sắc và font chữ cho lời chào */
+.text-greeting {
+    color: #c62828;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

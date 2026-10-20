@@ -1,0 +1,77 @@
+/* Vỏ máy tính */
+.calculator-container {
+    background-color: #111827;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    width: 350px;
+}
+
+/* Màn hình */
+.screen {
+    background-color: #022c22;
+    border-radius: 8px;
+    height: 100px;
+}
+
+/* Biểu thức nhỏ */
+.expression-text {
+    color: #4ade80;
+    font-size: 1.2rem;
+    min-height: 1.5rem;
+}
+
+/* Kết quả lớn */
+.result-text {
+    color: #4ade80;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+/* Nút bấm chung */
+.btn-calc {
+    height: 60px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Nút số */
+.btn-num {
+    background-color: #25313f;
+    color: #e5e7eb;
+}
+.btn-num:hover {
+    background-color: #374151;
+    color: white;
+}
+
+/* Nút phép tính */
+.btn-op {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+.btn-op:hover {
+    background-color: #0b5ed7;
+    color: white;
+}
+
+/* Nút C */
+.btn-clear {
+    background-color: #dc2626;
+    color: white;
+}
+.btn-clear:hover {
+    background-color: #b91c1c;
+    color: white;
+}
+
+/* Nút = */
+.btn-equal {
+    background-color: #16a34a;
+    color: white;
+}
+.btn-equal:hover {
+    background-color: #15803d;
+    color: white;
+}

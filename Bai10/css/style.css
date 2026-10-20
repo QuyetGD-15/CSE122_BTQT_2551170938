@@ -1,0 +1,33 @@
+.contact-card {
+    max-width: 800px;
+    border-radius: 12px;
+}
+
+.contact-card .card-header {
+    background-color: #0f766e;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.custom-label {
+    color: #334155;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.custom-input {
+    border-color: #cbd5e1;
+}
+
+.btn-submit {
+    background-color: #0f766e;
+    color: white;
+    font-weight: 500;
+}
+
+.btn-reset {
+    background-color: #e2e8f0;
+    color: #334155;
+    font-weight: 500;
+}

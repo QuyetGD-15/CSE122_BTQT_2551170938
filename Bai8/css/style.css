@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.text-custom {
+    color: #1668C1;
+}
+
+.bg-custom {
+    background-color: #1668C1;
+}
+
+.border-custom {
+    border-color: #1668C1;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}

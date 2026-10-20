@@ -1,0 +1,60 @@
+/* Nền trang màu cam nhạt cho giống ảnh mẫu */
+.bg-light-orange {
+    background-color: #fdf4e3;
+}
+
+/* Vỏ biểu mẫu: nền trắng, viền #fed7aa, bo góc 12px */
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #fed7aa;
+    border-radius: 12px;
+}
+
+/* Tiêu đề màu #c2410c */
+.text-title {
+    color: #c2410c;
+}
+
+/* Nút đăng ký: nền #c2410c, chữ trắng */
+.btn-register {
+    background-color: #c2410c;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+}
+.btn-register:hover {
+    background-color: #9a330a;
+    color: #ffffff;
+}
+
+/* Ô nhập liệu cơ bản */
+.custom-input {
+    border-color: #ced4da;
+}
+
+/* --- TRẠNG THÁI LỖI VÀ HỢP LỆ --- */
+
+/* Viền lỗi #dc2626 */
+.input-error {
+    border-color: #dc2626 !important;
+    border-width: 2px !important;
+}
+
+/* Viền hợp lệ #16a34a */
+.input-success {
+    border-color: #16a34a !important;
+    border-width: 2px !important;
+}
+
+/* Chữ thông báo lỗi */
+.msg-error {
+    color: #dc2626;
+    font-size: 13px;
+}
+
+/* Chữ thông báo hợp lệ */
+.msg-success {
+    color: #16a34a;
+    font-size: 13px;
+}
