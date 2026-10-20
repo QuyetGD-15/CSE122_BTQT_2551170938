@@ -1,0 +1,38 @@
+
+.banner-top {
+    background-color: #C62828;
+
+}
+
+/* Vùng 2: Menu dọc bên trái */
+.menu-left {
+    background-color: #C62828;
+    min-height: 400px;
+}
+
+.menu-item {
+    border-bottom: 1px solid #E57373;
+    padding: 12px 15px;
+}
+
+.menu-item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+}
+
+.menu-item:hover {
+    background-color: #8E0000;
+}
+
+
+.submenu-box {
+    background-color: #FFE082;
+}
+
+
+.content-box {
+    background-color: #FFFFFF;
+    border: 1px solid #e0e0e0;
+}

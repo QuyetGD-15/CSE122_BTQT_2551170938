@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 20 - Hiệu ứng ảnh</title>
+    <!-- Tích hợp Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-dark text-white d-flex flex-column align-items-center justify-content-center min-vh-100 p-4">
+
+    <!-- Bộ lọc SVG ẩn dùng cho hiệu ứng Wave -->
+    <svg width="0" height="0" class="d-none">
+        <filter id="wave-filter">
+            <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="1" result="warp"></feTurbulence>
+            <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="20" in="SourceGraphic" in2="warp"></feDisplacementMap>
+        </filter>
+        <!-- Bộ lọc Mask làm mờ góc -->
+        <filter id="mask-filter">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur"></feGaussianBlur>
+            <feComposite in2="blur" operator="in" in="SourceGraphic"></feComposite>
+        </filter>
+    </svg>
+
+    <!-- Khung ảnh trung tâm -->
+    <div class="image-frame bg-frame p-4 rounded-4 shadow-lg mb-4 text-center">
+        <!-- Ảnh hoa hồng -->
+        <img id="mainImage" src="../image/hoahong.gif" alt="Hoa hồng" class="flower-img effect-gray mb-3">
+        <!-- Dòng chữ gradient vàng -->
+        <div class="gold-text fst-italic fs-3 fw-bold">Special For You</div>
+    </div>
+
+    <!-- Thanh nút hiệu ứng -->
+    <div class="btn-group-wrap text-center" style="max-width: 800px;">
+        <!-- Hàng 1 -->
+        <div class="d-flex flex-wrap justify-content-center gap-2 mb-2">
+            <button class="btn btn-effect active" data-effect="effect-gray">Gray</button>
+            <button class="btn btn-effect" data-effect="effect-xray">Xray</button>
+            <button class="btn btn-effect" data-effect="effect-invert">Invert</button>
+            <button class="btn btn-effect" data-effect="effect-fliph">FlipH</button>
+            <button class="btn btn-effect" data-effect="effect-flipv">FlipV</button>
+            <button class="btn btn-effect" data-effect="effect-glow">Glow</button>
+            <button class="btn btn-effect" data-effect="effect-shadow">Shadow</button>
+            <button class="btn btn-effect" data-effect="effect-boldshadow">Bold Shadow</button>
+        </div>
+        <!-- Hàng 2 -->
+        <div class="d-flex flex-wrap justify-content-center gap-2">
+            <button class="btn btn-effect" data-effect="effect-dropshadow">DropShadow</button>
+            <button class="btn btn-effect" data-effect="effect-blur">Blur</button>
+            <button class="btn btn-effect" data-effect="effect-wave">Wave</button>
+            <button class="btn btn-effect" data-effect="effect-mask">Mask</button>
+            <button class="btn btn-effect" data-effect="effect-alpha">Alpha</button>
+        </div>
+    </div>
+
+    <!-- Nhúng JS -->
+    <script src="../js/script.js"></script>
+</body>
+</html>

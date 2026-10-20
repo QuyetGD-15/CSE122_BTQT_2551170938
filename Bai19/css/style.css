@@ -1,0 +1,23 @@
+.custom-img {
+    max-width: 100%;
+    width: 300px;
+}
+
+.title-shadow {
+    color: #C9A227;
+    text-shadow: 2px 2px 4 px rgba(0,0,0,0.15);
+}
+
+.dashed-box {
+    border: 2px dashed #E07B00;
+    border-radius: 12px;
+}
+
+.text-highlight {
+    color: #C62828;
+    font-weight: bold;
+}
+
+.text-justify {
+    text-align: justify;
+}

@@ -1,56 +1,38 @@
-/* --- TIÊU ĐỀ VÀ CHỮ --- */
 .title-orange {
-    color: #E65100; /* Màu cam theo gợi ý */
+    color: #E65100;
 }
 
-/* Căn đều 2 bên cho đoạn văn đẹp hơn */
 .text-justify {
-    text-align: justify;
+    text-align: center;
 }
 
-/* 
- * HIỆU ỨNG DROP CAP (Chữ cái đầu to) 
- * Sử dụng thẻ giả ::first-letter
- */
 .drop-cap::first-letter {
-    color: #E65100; /* Chữ màu cam */
-    font-size: 3.5rem; /* Phóng to chữ */
+    color: #E65100;
+    font-size: 3.5rem;
     font-weight: bold;
-    float: left; /* Đẩy chữ sang trái để các dòng khác bao quanh */
-    margin-right: 8px; /* Khoảng cách với các chữ đằng sau */
-    margin-top: -5px; /* Căn chỉnh cho mép trên bằng với dòng chữ đầu tiên */
-    line-height: 1; 
+    float: left;
+    margin-right: 8px;
+    margin-top: -5px;
+    line-height: 1
 }
 
-
-/* --- KHỐI HƯƠNG VỊ MIỀN NAM --- */
 .flavor-box {
-    background-color: #f4fbf4; /* Nền xanh nhạt */
-    border: 2px solid #2E7D32; /* Viền xanh lá đậm */
+    background-color: #f4fbf4;
+    border: 2px solid #2E7D32;
 }
 
 .text-green {
-    color: #2E7D32; /* Màu chữ xanh lá */
+    color: #2E7D32;
 }
 
-/* 
- * HIỆU ỨNG CHIA CỘT CSS3 VÀ ICON DANH SÁCH 
- */
 .custom-list {
-    /* Thay đổi dấu chấm tròn mặc định thành ảnh icon_list_c.gif */
-    list-style-image: url('../image/icon_list_c.gif'); 
-    
-    /* Chia danh sách thành 2 cột */
-    columns: 2; 
-    -webkit-columns: 2; /* Hỗ trợ trình duyệt cũ */
-    
-    column-gap: 40px; /* Khoảng cách giữa 2 cột */
+    list-style: url('../image/icon_list_c.gif');
+    columns: 2;
+    column-gap: 40px;
     padding-left: 20px;
 }
 
 .custom-list li {
     margin-bottom: 12px;
-    
-    /* Ngăn không cho 1 dòng chữ bị ngắt làm đôi (nửa nằm cột này, nửa nằm cột kia) */
-    break-inside: avoid; 
+    break-inside: avoid;
 }
