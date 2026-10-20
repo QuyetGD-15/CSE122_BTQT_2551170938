@@ -1,0 +1,87 @@
+.pricing-card {
+    background-color: #FFFFFF;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 40px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card.hot {
+    border: 2px solid #4f46e5;
+    transform: scale(1.05);
+    box-shadow: 0 20px 25px rgba(79, 70, 229, 0.15);
+    position: relative;
+    z-index: 1;
+}
+
+.pricing-card.hot:hover {
+    transform: scale(1.05) translateY(-5px);
+}
+
+.badge-custom {
+    background-color: #eef2ff;
+    color: #4338ca;
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.price-box {
+    margin: 20px 0;
+    color: #1e293b;
+}
+
+.price-num {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.price-unit {
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.feature-list {
+    margin-bottom: 30px;
+}
+
+.feature-list li {
+    margin-bottom: 12px;
+    color: #475569;
+    font-size: 14px;
+}
+
+.btn-normal {
+    background-color: #f1f5f9;
+    color: #1e293b;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.btn-normal:hover {
+    background-color: #e2e8f0;
+}
+
+.btn-hot {
+    background-color: #4f46e5;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.btn-hot:hover {
+    background-color: #4338ca;
+    color: #FFFFFF;
+}
